@@ -114,5 +114,5 @@ streamlit run app/dashboard.py
 ## Author
 
 Isha Maheshwari
-- [E-mail](ishamaheshwari2003@gmail.com)
+- [E-mail](mailto:ishamaheshwari2003@gmail.com)
 - [GitHub](https://github.com/Isha2706/)
