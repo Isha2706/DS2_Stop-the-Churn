@@ -108,7 +108,7 @@ streamlit run app/dashboard.py
 
 ## Add-ons
 
-- [Live dashboard](link)
+- [Live dashboard](https://ds2stop-the-churn-atsqmpwtfahrwjsufa7njo.streamlit.app/)
 - [Jupyter Notebook with EDA + Model Training](https://github.com/Isha2706/DS2_Stop-the-Churn/tree/main/notebooks)
 
 ## Author
