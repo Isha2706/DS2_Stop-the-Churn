@@ -92,6 +92,18 @@ scaler = joblib.load(os.path.join(base, "model/scaler.pkl"))
 st.title("Customer Churn Predictor")
 st.markdown("Upload your customer data CSV to infer churn probabilities in real time.")
 
+with st.expander("Why Churn Prediction Matters"):
+    st.markdown("""
+    In the highly competitive fintech industry, losing a customer is more than just a number—it's a hit to growth and revenue.
+    
+    **Why it matters:**  
+    - Acquiring new users is expensive.  
+    - Retaining existing users is crucial for sustainable growth.  
+    - Early identification of at-risk users gives your team time to intervene and retain them.
+
+    This dashboard enables you to **predict churn**, understand **why it's happening**, and take **data-driven actions** to reduce it.
+    """)
+
 # -------------------- File upload --------------------
 file = st.file_uploader("Upload CSV File", type=["csv"])
 if not file:
