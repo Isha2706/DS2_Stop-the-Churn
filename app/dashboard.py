@@ -89,7 +89,7 @@ model = joblib.load(os.path.join(base, "model/model.pkl"))
 scaler = joblib.load(os.path.join(base, "model/scaler.pkl"))
 
 # -------------------- UI Header --------------------
-st.title("Customer Churn Predictor")
+st.title("Fintech Customer Churn Predictor")
 st.markdown("Upload your customer data CSV to infer churn probabilities in real time.")
 
 with st.expander("Why Churn Prediction Matters"):
