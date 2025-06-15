@@ -14,7 +14,6 @@ It combines predictive modeling with actionable visual insights, wrapped in a mo
 ## Project Structure
 
 ```bash
-.
 ├── app/
 │   ├── dashboard.py             # Streamlit dashboard app
 │   └── model/                   # Model files
@@ -116,7 +115,7 @@ streamlit run app/dashboard.py
 ## Add-ons
 
 - [Live dashboard](https://ds2stop-the-churn-atsqmpwtfahrwjsufa7njo.streamlit.app/)
-- AUC-ROC chart
+- [AUC-ROC chart](https://github.com/Isha2706/DS2_Stop-the-Churn/blob/main/outputs/plots/ROC%20Curve.png)
 - [Jupyter Notebook with EDA + Model Training](https://github.com/Isha2706/DS2_Stop-the-Churn/tree/main/notebooks)
 
 ## Author
