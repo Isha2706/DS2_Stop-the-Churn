@@ -28,12 +28,14 @@ It combines predictive modeling with actionable visual insights, wrapped in a mo
 ├── data/
 │   ├── telco_train.csv          # Training data
 │   └── telco_test.csv           # Hidden test data
-├── notebooks
+├── notebooks/
 │   ├── 01_data_cleaning.ipynb         # Cleaning and Preparing the data
 │   ├── 02_model_training.ipynb        # Training the churn prediction model
 │   └── 03_model_evaluation.ipynb      # Analyzing feature importance and using SHAP
-├── output
-│   └── churn_preds.csv           # Result of test data
+├── output/
+│   ├── churn_preds.csv           # Result of test data
+│   └── plots/                    # AUC-ROC Output chart
+│       └── ROC Curve.png
 ├── requirements.txt
 └── README.md
 ```
@@ -114,6 +116,7 @@ streamlit run app/dashboard.py
 ## Add-ons
 
 - [Live dashboard](https://ds2stop-the-churn-atsqmpwtfahrwjsufa7njo.streamlit.app/)
+- AUC-ROC chart
 - [Jupyter Notebook with EDA + Model Training](https://github.com/Isha2706/DS2_Stop-the-Churn/tree/main/notebooks)
 
 ## Author
