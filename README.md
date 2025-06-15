@@ -104,7 +104,7 @@ streamlit run app/dashboard.py
 
 - Google Drive (View-only):
   - [Raw Data](https://drive.google.com/drive/folders/14tvik6DvLQu6DvZyzO9YvvUJMDB9jdtp?usp=sharing)
-  - [Video Presentation](https://drive.google.com/drive/folders/1Oo0DfhG51Nc_6Ak457v7eXHsE_xy9oZC?usp=sharing)
+  - [Video Presentation](https://drive.google.com/file/d/1y-jlp21RQuajeVm3LiupY11v01G2mpq5/view?usp=sharing)
 
 ## Extras
 
