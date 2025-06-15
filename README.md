@@ -83,7 +83,7 @@ streamlit run app/dashboard.py
 
 | Metric   | Value                                   |
 | -------- | --------------------------------------- |
-| AUC-ROC  | 0.89+                                   |
+| AUC-ROC  | 0.80+                                   |
 | Accuracy | \~85%                                   |
 | Recall   | High emphasis to reduce false negatives |
 
