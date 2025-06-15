@@ -66,7 +66,7 @@ streamlit run app/dashboard.py
 
 ## Prediction Approach
 
-- **Model Used:** XGBoost Classifier (binary classification)
+- **Model Used:** XGBoost Classifier
 - **Target:** Predict whether a customer will churn in the next 30 days
 - **Evaluation Metric:** AUC-ROC
 - **Preprocessing:**
@@ -75,6 +75,11 @@ streamlit run app/dashboard.py
   - Feature scaling using `StandardScaler`
  
 ## Model Performance
+
+- **Model:** XGBoost (XGBClassifier)
+- **Optimization Metric:** AUC-ROC
+- **Explainability:** SHAP summary plots and individual feature impact for transparency
+- **Threshold Customization:** Adjustable churn cutoff via the dashboard
 
 | Metric   | Value                                   |
 | -------- | --------------------------------------- |
@@ -97,7 +102,7 @@ streamlit run app/dashboard.py
 ## External Files
 
 - Google Drive (View-only):
-  - [Raw Data](link)
+  - [Raw Data](https://drive.google.com/drive/folders/14tvik6DvLQu6DvZyzO9YvvUJMDB9jdtp?usp=sharing)
   - [Video Presentation](link)
 
 ## Extras
